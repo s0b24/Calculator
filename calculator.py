@@ -26,7 +26,7 @@ class Main(ctk.CTk):
         self.title('Calculator')
         self.geometry(self.position_center_screen(300, 370))
         self.configure(bg_color='#242424')
-        self.iconbitmap(bitmap='C:/Users/vladi/Desktop/apps/calculator/icon.ico')
+        # self.iconbitmap(bitmap='')
 
         # Font
         self.font = ctk.CTkFont(family='Roboto', 
